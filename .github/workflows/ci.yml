@@ -34,15 +34,3 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
           path: |
             ~/.cache/pip
-
-      # Configure Git with GitHub Actions bot and deploy with mkdocs
-      - name: Configure Git and Deploy with mkdocs
-        env:
-          GH_TOKEN: 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
-        run: |
-          git config --global user.name 'delprosoftware'
-          git config --global user.email 'software@delproservices.com.au'
-          echo "Setting up git remote with PAT"
-          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
-          echo "Attempting to deploy..."
-          mkdocs gh-deploy --force
