@@ -1,68 +1,14 @@
-# Homepage
+# Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Code Annotation Examples
+## Helpdesk
 
-### Codeblocks
+### Creating Jobs
 
-Some `code` goes here.
+When creating job you can click on the Helpdesk button in the nav bar, followed by the Create Job button this will take you to the form to start creating your job.
 
-### Plain codeblock
+![Create Job button](img/create_job_button.jpg)
 
-A plain codeblock:
+Once we are on the form we will have to select the client and client contract we are creating the job for. If the dropdown does not show the client you are looking for please see administration as this will need to be created.
 
-```
-Some code here
-def myfunction()
-// some comment
-```
-
-#### Code for a specific language
-
-Some more code with the `py` at the start:
-
-``` py
-import tensorflow as tf
-def whatever()
-```
-
-#### With a title
-
-``` py title="bubble_sort.py"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-#### With line numbers
-
-``` py linenums="1"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-#### Highlighting lines
-
-``` py hl_lines="2 3"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-## Icons and Emojs
-
-:smile: 
-
-:fontawesome-regular-face-laugh-wink:
-
-:fontawesome-brands-twitter:{ .twitter }
-
-:octicons-heart-fill-24:{ .heart }
+![Client Entry](img/client_entry.jpg)
