@@ -2,6 +2,7 @@ site_name: Delpro IT - Field Service Application Documentation
 site_url: https://delprosoftware.github.io/documentation/
 theme:
   name: material
+  logo: img/delpro_it_logo.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -18,14 +19,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: teal
-      accent: purple 
+      primary: #B3E5FC
+      accent: #81D4FA 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: teal
-      accent: lime
+      primary: #B3E5FC
+      accent: #80CBC4
 
 plugins:
   - social
@@ -34,7 +35,7 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://delproservices.com.au
-      
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
