@@ -1,5 +1,5 @@
-site_name: MkDocs YouTube Tutorial
-site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
+site_name: Delpro IT - Field Service Application Documentation
+site_url: https://delprosoftware.github.io/documentation/
 theme:
   name: material
   features:
