@@ -1,0 +1,4 @@
+site_name: 'Delpro IT - Field Service Application Documentation'
+
+theme:
+  name: 'readthedocs'
