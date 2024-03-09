@@ -42,5 +42,7 @@ jobs:
         run: |
           git config --global user.name 'delprosoftware'
           git config --global user.email 'software@delproservices.com.au'
+          echo "Setting up git remote with PAT"
           git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+          echo "Attempting to deploy..."
           mkdocs gh-deploy --force
