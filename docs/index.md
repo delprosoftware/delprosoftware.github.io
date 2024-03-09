@@ -1,7 +1,4 @@
-# Documentation
-
-
-## Helpdesk
+# Helpdesk
 
 ### Creating Jobs
 
