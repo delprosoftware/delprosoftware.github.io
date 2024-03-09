@@ -38,7 +38,7 @@ jobs:
       # Configure Git with GitHub Actions bot and deploy with mkdocs
       - name: Configure Git and Deploy with mkdocs
         env:
-          GH_TOKEN: ${{ secrets.GH_PAGES_DEPLOY_TOKEN }}
+          GH_TOKEN: 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
         run: |
           git config --global user.name 'delprosoftware'
           git config --global user.email 'software@delproservices.com.au'
