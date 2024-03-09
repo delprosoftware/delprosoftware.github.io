@@ -35,6 +35,12 @@ jobs:
           path: |
             ~/.cache/pip
 
-      # Deploy with mkdocs
-      - name: Deploy with mkdocs
-        run: mkdocs gh-deploy --force
+      # Configure Git with GitHub Actions bot and deploy with mkdocs
+      - name: Configure Git and Deploy with mkdocs
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAGES_DEPLOY_TOKEN }}
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+          mkdocs gh-deploy --force
