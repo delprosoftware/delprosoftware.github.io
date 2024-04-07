@@ -10,6 +10,6 @@ Upon accessing the form, you'll need to specify the client and their correspondi
 
 ![Client Entry](img/client_entry.jpg)
 
-Additionally, two extra fields will appear prompting you to input the Client's Call Number and Client Call Name. If the client lacks either of these details, kindly consult the administration for further guidance.
+Additionally, one extra fields will appear prompting you to input the Client's Call Number. If the client lacks this detail, kindly consult the administration for further guidance.
 
-![Client Call Number Name](img/client_call_number_name.jpg)
+![Client Call Number Name](img/client_call_number.jpg)
