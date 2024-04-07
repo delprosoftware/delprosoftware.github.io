@@ -23,3 +23,13 @@ For each **Client** and **Client Contact**, specific **Site Details** are linked
 In the event that **Site Details** are not displayed in the list, there's an option to create a new entry. To do this, simply select *If a site does not exist, click here*. This will open a new window, facilitating the addition of new **Site Details**.
 
 ![Create Site Details](img/create_site_details.jpg)
+
+Kindly complete the new **Site Details** form with special attention to accurately entering essential information in the following fields:
+
+ - **Site Name:** Specify the site's name, which identifies the location.
+ - **Address:** Enter the complete physical address of the site.
+ - **Zone:** Choose the zone from the list established by the administration that corresponds to the site's location. If the appropriate zone is not listed, please alert the administration. Note that zones determine job visibility for users, allowing them to see jobs within their specific zone.
+
+**Important:** Should any required fields be left incomplete upon submission, you will receive a notification indicating which fields need to be filled.
+
+![Site Details Form](img/site_details_form.jpg)
