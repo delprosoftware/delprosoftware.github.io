@@ -34,6 +34,8 @@ Kindly complete the new **Site Details** form with special attention to accurate
 
 ![Site Details Form](img/site_details_form.jpg)
 
+### Job Allocation List
+
 After selecting a **Site Details**, the list below will populate with company names. Clicking on any company name will display all users associated with that company who are operating within the zone specified by the **Site Details**. Among these users, one will be labeled *"Main Account"* and highlighted in yellow. Please assign the job to this user, as recommended by the contracting company. If the main user is not visible, please notify administration.
 
 ![Allocation List](img/allocation_list.jpg)
