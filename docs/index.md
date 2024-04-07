@@ -16,10 +16,10 @@ Additionally, one extra fields will appear prompting you to input the Client's C
 
 ### Site Details
 
-Each **Client** and **Client Contact** will have **Site Details** attached to them these are all specififc. The site details will only show if the above **Client** and **Client Contact** has been selected. Think of the **Site Details** as the location of the site. 
+For each **Client** and **Client Contact**, specific **Site Details** are linked, acting as the exact location for the site. These details are only visible once the respective **Client** and **Client Contact** have been chosen.
 
 ![Site Details Drop Down](img/site_details_dropdown.jpg)
 
-If the **Site Details** does not show in the least we are able to create one please select *If a site does not exist, click here* this will open another window that will allow us to enter new **Site Details**
+In the event that **Site Details** are not displayed in the list, there's an option to create a new entry. To do this, simply select *If a site does not exist, click here*. This will open a new window, facilitating the addition of new **Site Details**.
 
 ![Create Site Details](img/create_site_details.jpg)
