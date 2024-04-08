@@ -93,7 +93,7 @@ Please see exmaple fields below
 
 
 <div class="admonition note">
-    <p class="admonition-title">Note</p>
+    <p class="admonition-title">Automation Emails</p>
     <p>
         Job Creation: Notification Emails
         <ul>
@@ -106,9 +106,6 @@ Please see exmaple fields below
         <ul>
             <li>An email will be sent to all users specified in the Allocation and/or Additional Resource sections. This email will notify the users that a job has been assigned to them.</li>
         </ul>
-    </p>
-    <p>
-        For more information, see the <a href="../configuration/#custom_dir">custom_dir</a> theme.
     </p>
 </div>
 
