@@ -1,18 +1,21 @@
 site_name: Delpro IT - Field Service Application Documentation
 site_url: https://delprosoftware.github.io/documentation/
 nav:
-  - Home: index.md
-  - User Guide:
-    - Installing: user-guide/installing.md
-    - Configuration: user-guide/configuration.md
-  - API Reference:
-    - Endpoint 1: api-reference/endpoint1.md
-    - Endpoint 2: api-reference/endpoint2.md
-  - About: about.md
+  - Welcome: index.md
+  - Helpdesk:
+      - 'Creating Jobs': helpdesk/jobcreate.md
+      - 'Job Search': ''
+  - Technician: 
+        - 'Job List': technician/joblist.md
+        - 'Job Search': ''
+  - Contractor: contractor.md
+  - Client: client.md
+  - Administration: administration.md
 
 theme:
   name: material
   logo: img/delpro_it_logo.PNG
+  collapse_navigation: true
   features:
     - navigation.tabs
     - navigation.sections
@@ -63,6 +66,4 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-
-copyright: |
-  &copy; 2024 Delpro IT</a>
+copyright: "&copy; 2024 Delpro IT"

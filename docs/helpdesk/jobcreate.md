@@ -1,19 +1,4 @@
-<style>
-    /* Alternating background colors for sections */
-    .section:nth-child(odd) {
-        background-color: #f9f9f9; /* Light gray for odd sections */
-    }
-    .section:nth-child(even) {
-        background-color: #f0f0f0; /* Lighter gray for even sections */
-    }
-    h1 {
-  color: red;
-    }
-</style>
-
-# Helpdesk
-
-## Creating Jobs
+# Creating Jobs
 
 To initiate the job creation process, navigate to the Helpdesk button located in the navigation bar. Subsequently, click on the Create Job button which will direct you to the job creation form.
 
