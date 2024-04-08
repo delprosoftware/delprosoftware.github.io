@@ -34,7 +34,7 @@ Kindly complete the new **Site Details** form with special attention to accurate
 
 ![Site Details Form](img/site_details_form.JPG)
 
-### Job Allocation List
+## Job Allocation List
 
 After selecting a **Site Details**, the list below will populate with company names. Clicking on any company name will display all users associated with that company who are operating within the zone specified by the **Site Details**. Among these users, one will be labeled *"Main Account"* and highlighted in yellow. Please assign the job to this user, as recommended by the contracting company. If the main user is not visible, please notify administration.
 
@@ -43,7 +43,7 @@ After selecting a **Site Details**, the list below will populate with company na
 ![Allocation Popup](img/allocation_list_popup.JPG)
 
 
-### Job Allocation
+## Job Allocation
 
 There are two sections where you can assign a job to a user, **Allocation** and **Additional Resources**. Ensure the user appears in the mentioned allocation list since this user falls within the designated area. If they should be included in that area, please inform the administration. 
 
@@ -51,3 +51,14 @@ There are two sections where you can assign a job to a user, **Allocation** and 
 
 ![Allocation Dropdown](img/allocation_dropdown.JPG)
 
+## Job Status
+
+The default **Job Status** is set as *New Job*. If a different status is needed, please select the desired option from the drop-down menu. Below are examples of statuses you can choose:
+
+- Standby
+- Awaiting Customer Reply
+- Management Follow Up
+- On Hold
+- Parts Pending
+
+![Status Dropdown](img/status_dropdown.JPG)
