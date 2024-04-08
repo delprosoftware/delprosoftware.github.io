@@ -19,6 +19,8 @@ To initiate the job creation process, navigate to the Helpdesk button located in
 
 ![Create Job button](img/create_job_button.JPG)
 
+## Client and Client Contract
+
 Upon accessing the form, you'll need to specify the **Client** and their corresponding contract for whom the job is being created. If the desired **Client** is not visible in the dropdown menu, please refer to the administration for assistance as it may need to be added.
 
 ![Client Entry](img/client_entry.JPG)
