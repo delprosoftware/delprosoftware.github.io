@@ -2,7 +2,7 @@ site_name: Delpro IT - Field Service Application Documentation
 site_url: https://delprosoftware.github.io/documentation/
 theme:
   name: material
-  logo: img/delpro_it_logo.png
+  logo: img/delpro_it_logo.PNG
   features:
     - navigation.tabs
     - navigation.sections
