@@ -1,5 +1,15 @@
 site_name: Delpro IT - Field Service Application Documentation
 site_url: https://delprosoftware.github.io/documentation/
+nav:
+  - Home: index.md
+  - User Guide:
+    - Installing: user-guide/installing.md
+    - Configuration: user-guide/configuration.md
+  - API Reference:
+    - Endpoint 1: api-reference/endpoint1.md
+    - Endpoint 2: api-reference/endpoint2.md
+  - About: about.md
+
 theme:
   name: material
   logo: img/delpro_it_logo.PNG
