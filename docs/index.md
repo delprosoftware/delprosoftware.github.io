@@ -6,6 +6,12 @@
     <title>Helpdesk Documentation</title>
     <style>
         /* Alternating background colors for sections */
+        .section {
+            margin-bottom: 20px; /* Reduce gap between sections */
+            padding: 20px; /* Add padding for better readability */
+            border-radius: 10px; /* Add border radius for rounded corners */
+            overflow: hidden; /* Clear floats */
+        }
         .section:nth-child(odd) {
             background-color: #f9f9f9; /* Light gray for odd sections */
         }
