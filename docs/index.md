@@ -66,3 +66,14 @@ The default **Job Status** is set as *New Job*. If a different status is needed,
 ## Job Type
 
 The **Job Type** is a flexible field configured by administrators. It serves to identify the nature of the job or to distinguish it from other roles within the company as needed. If this field is blank, please consult with the administration, as filling it out is necessary for job creation.
+
+![Job Type Dropdown](img/job_type_dropdown.JPG)
+
+
+## Additional Fields
+
+The fields presented below dynamically adjust, appearing or disappearing based on administrative preferences related to the logging of jobs, depending upon the specific **Client** and **Client Contract**. Whether these fields are visible or hidden, their necessity as mandatory or optional also varies in accordance with the **Client** and **Client Contract**.
+
+Please see exmaple fields below
+
+![Additional Fields](img/additional_fields.JPG)
