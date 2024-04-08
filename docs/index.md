@@ -6,6 +6,9 @@
     .section:nth-child(even) {
         background-color: #f0f0f0; /* Lighter gray for even sections */
     }
+    h1 {
+  color: red;
+    }
 </style>
 
 # Helpdesk
@@ -87,3 +90,13 @@ The fields presented below dynamically adjust, appearing or disappearing based o
 Please see exmaple fields below
 
 ![Additional Fields](img/additional_fields.JPG)
+
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>
+Any extra CSS or JavaScript files will be added to the generated HTML
+document after the page content. If you desire to include a JavaScript
+library, you may have better success including the library by using the
+theme <a href="../configuration/#custom_dir">custom_dir</a>.</p>
+</div>
