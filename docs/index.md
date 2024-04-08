@@ -93,10 +93,22 @@ Please see exmaple fields below
 
 
 <div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>
-Any extra CSS or JavaScript files will be added to the generated HTML
-document after the page content. If you desire to include a JavaScript
-library, you may have better success including the library by using the
-theme <a href="../configuration/#custom_dir">custom_dir</a>.</p>
+    <p class="admonition-title">Note</p>
+    <p>
+        Job Creation: Notification Emails
+        <ul>
+            <li>Employees: After a job is created, an email will be sent to all users within the zones specified in the Site Details.</li>
+            <li>Contractors: An email will be sent to the Contractor's Job Request Email as specified.</li>
+        </ul>
+    </p>
+    <p>
+        Job Allocation: Notification Email
+        <ul>
+            <li>An email will be sent to all users specified in the Allocation and/or Additional Resource sections. This email will notify the users that a job has been assigned to them.</li>
+        </ul>
+    </p>
+    <p>
+        For more information, see the <a href="../configuration/#custom_dir">custom_dir</a> theme.
+    </p>
 </div>
+
