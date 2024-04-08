@@ -18,11 +18,11 @@ Additionally, one extra fields will appear prompting you to input the **Client's
 
 For each **Client** and **Client Contact**, specific **Site Details** are linked, acting as the exact location for the site. These details are only visible once the respective **Client** and **Client Contact** have been chosen.
 
-[![Site Details Drop Down](img/site_details_dropdown_small.JPG)](javascript:void(0);)
+[![Site Details Drop Down](img/site_details_dropdown.JPG)](javascript:void(0);)
 
 In the event that **Site Details** are not displayed in the list, there's an option to create a new entry. To do this, simply select *If a site does not exist, click here*. This will open a new window, facilitating the addition of new **Site Details**.
 
-[![Create Site Details](img/create_site_details_small.JPG)](javascript:void(0);)
+[![Create Site Details](img/create_site_details.JPG)](javascript:void(0);)
 
 Kindly complete the new **Site Details** form with special attention to accurately entering essential information in the following fields:
 
@@ -32,15 +32,15 @@ Kindly complete the new **Site Details** form with special attention to accurate
 
 **Important:** Should any required fields be left incomplete upon submission, you will receive a notification indicating which fields need to be filled.
 
-[![Site Details Form](img/site_details_form_small.JPG)](javascript:void(0);)
+[![Site Details Form](img/site_details_form.JPG)](javascript:void(0);)
 
 ## Job Allocation List
 
 After selecting a **Site Details**, the list below will populate with company names. Clicking on any company name will display all users associated with that company who are operating within the zone specified by the **Site Details**. Among these users, one will be labeled *"Main Account"* and highlighted in yellow. Please assign the job to this user, as recommended by the contracting company. If the main user is not visible, please notify administration.
 
-[![Allocation List](img/allocation_list_small.JPG)](javascript:void(0);)
+[![Allocation List](img/allocation_list.JPG)](javascript:void(0);)
 
-[![Allocation Popup](img/allocation_list_popup_small.JPG)](javascript:void(0);)
+[![Allocation Popup](img/allocation_list_popup.JPG)](javascript:void(0);)
 
 
 ## Job Allocation
@@ -49,7 +49,7 @@ There are two sections where you can assign a job to a user, **Allocation** and 
 
 **Automation:** After a job is initiated, please be aware that emails will be dispatched to users who have been assigned the job.
 
-[![Allocation Dropdown](img/allocation_dropdown_small.JPG)](javascript:void(0);)
+[![Allocation Dropdown](img/allocation_dropdown.JPG)](javascript:void(0);)
 
 ## Job Status
 
@@ -61,7 +61,7 @@ The default **Job Status** is set as *New Job*. If a different status is needed,
 - On Hold
 - Parts Pending
 
-[![Status Dropdown](img/status_dropdown_small.JPG)](javascript:void(0);)
+[![Status Dropdown](img/status_dropdown.JPG)](javascript:void(0);)
 
 ## Job Type
 
