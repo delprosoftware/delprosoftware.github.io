@@ -41,14 +41,6 @@ theme:
       primary: #B3E5FC
       accent: #80CBC4
 
-plugins:
-  - social
-
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://delproservices.com.au
-
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
