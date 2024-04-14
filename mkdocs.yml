@@ -6,9 +6,11 @@ nav:
       - 'Creating Jobs': helpdesk/jobcreate.md
       - 'Job Search': ''
   - Technician: 
-        - 'Job List': technician/joblist.md
-        - 'Job Search': ''
-  - Contractor: contractor.md
+        - 'Job List': common/joblist.md
+        - 'Job Details': common/jobdetails.md
+  - Contractor: 
+        - 'Job List': common/joblist.md
+        - 'Job Details': common/jobdetails.md
   - Client: client.md
   - Administration: administration.md
 
