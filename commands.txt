@@ -1,0 +1,11 @@
+Create VENV
+python3 -m venv venv
+
+Activate VENV
+source venv/bin/activate
+
+Install Requirements
+pip install -r requirements.txt
+
+Run MK Server
+mkdocs serve --dev-addr localhost:8080
