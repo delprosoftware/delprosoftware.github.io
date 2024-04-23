@@ -112,3 +112,15 @@ You have the capability to upload files and images. Simply click on the "Choose 
 </div>
 
 ![Uploads](img/uploads.JPG)
+
+## Closure Notes - Tab
+
+#### Creating Closure Note
+
+When you arrive onsite, you will see the **Create Closure Note** option. Use this to document each visit, recording all relevant onsite and offsite details along with the outcomes of your attendance.
+
+![Uploads](img/create_closure_note_button.JPG)
+
+After clicking this button, you will be directed to another page where you can enter all the necessary details. Please be aware that the fields in the note are adjustable, as administrators have the capability to modify closure notes for each client and contract.
+
+![Uploads](img/closure_note_form.JPG)
