@@ -6,8 +6,8 @@ The **Job Actions** tab shows all the latest updates for the current job. You ca
 
 ![Job Action Button](img/job_action_button.JPG)
 
-#### Actions
-###### Update
+### Actions
+#### Update
 
 To send an update regarding the current job, simply type your message in the input field and click 'Send'. This will update the live message feed displayed below.
 
@@ -23,7 +23,7 @@ To send an update regarding the current job, simply type your message in the inp
     </p>
 </div>
 
-###### On The Way
+#### On The Way
 
 You can use the dropdown menu to set your current status to "On The Way" This notifies the Helpdesk and other relevant parties that you are en route to the job.
 
@@ -33,7 +33,7 @@ If you accidentally set your status to "On The Way" you can select the "Incorrec
 
 ![Incorrect On The Way](img/incorrect_on_the_way.JPG)
 
-###### On Site
+#### On Site
 
 You can use the dropdown menu to set your current status to "On Site" This notifies the Helpdesk and other relevant parties that you are at site.
 
@@ -43,9 +43,9 @@ If you accidentally set your status to "Onsite" you can select the "Incorrect On
 
 ![Incorrect Onsite](img/incorrect_onsite.JPG)
 
-#### Button Actions
+### Button Actions
 
-###### Technician Actions
+#### Technician Actions
 
 If the job call is presently not onsite, you will notice a "Technician Actions" button below the Action Update. This button provides various options for the user.
 
@@ -54,7 +54,7 @@ If the job call is presently not onsite, you will notice a "Technician Actions" 
 
 ![Technician Action Button](img/technician_action_button.JPG)
 
-###### Onsite Actions
+#### Onsite Actions
 
 If the job call is currently onsite, you will find an "Onsite Actions" button below the Action Update. This button offers various options for the user.
 
@@ -65,23 +65,61 @@ If the job call is currently onsite, you will find an "Onsite Actions" button be
 
 ![Onsite Action Button](img/onsite_action_button.JPG)
 
+##### Create Closure Note
+
+When you arrive onsite, you will see the **Create Closure Note** option. Use this to document each visit, recording all relevant onsite and offsite details along with the outcomes of your attendance.
+
+After clicking this button, you will be directed to another page where you can enter all the necessary details. Please be aware that the fields in the note are adjustable, as administrators have the capability to modify closure notes for each client and contract.
+
+![Uploads](img/closure_note_form.JPG)
+
+Once the closure note has been submitted it will post an update on the main page
+
+![Uploads](img/closure_note_update.JPG)
+
+##### Escalate to Helpdesk
+
+If the call requires to be escalated to the help desk, you are able to click the **Escalate to Helpdesk** button
+
+A pop-up window will show to advise if you would like to escalate to helpdesk
+
+![Uploads](img/escalate_helpdesk_popup_sure.JPG)
+
+A second pop-up will prompt you to enter a message in the **Action Update Field**
+
+![Uploads](img/escalate_helpdesk_popup_prompt.JPG)
+
+Enter required message to helpdesk
+
+![Uploads](img/escalate_helpdesk_action_field.JPG)
+
+<div class="admonition note">
+    <p class="admonition-title">Escalation Email</p>
+    <p>
+        Automatic Email
+        <ul>
+            <li>Please note when a call has been escalated, an automatic escalation email has been sent to the helpdesk.</li>
+        </ul>
+    </p>
+</div>
+
 ## Job Details - Tab
 
 This will present all information regarding the current job.
 
-#### Details
+### Details
 
 The job details will always align with the current **Client** and **Client Contract**. The displayed information will vary depending on the selections made by the Administration team.
 
 ![Details](img/details.JPG)
 
-#### Notes Sections
+### Notes Sections
 
 This will show the job notes, which include the site issue as well as any additional notes that may be important.
 
 ![Notes Section](img/notes_section.JPG)
 
-#### SLA Details
+### SLA Details
 
 You can view the SLA details to see the remaining duration for each job.
 
@@ -90,13 +128,13 @@ You can view the SLA details to see the remaining duration for each job.
 
 ![SLA Details](img/sla_details.JPG)
 
-#### Site Details
+### Site Details
 
 All location and contact information can be found under the **Site Details** section.
 
 ![Site Details](img/site_details.JPG)
 
-#### File Uploads & Image Uploads
+### File Uploads & Image Uploads
 
 You have the capability to upload files and images. Simply click on the "Choose Files" button to select the desired files or images, then proceed to hit the upload button.
 
@@ -115,12 +153,3 @@ You have the capability to upload files and images. Simply click on the "Choose 
 
 ## Closure Notes - Tab
 
-#### Creating Closure Note
-
-When you arrive onsite, you will see the **Create Closure Note** option. Use this to document each visit, recording all relevant onsite and offsite details along with the outcomes of your attendance.
-
-![Uploads](img/create_closure_note_button.JPG)
-
-After clicking this button, you will be directed to another page where you can enter all the necessary details. Please be aware that the fields in the note are adjustable, as administrators have the capability to modify closure notes for each client and contract.
-
-![Uploads](img/closure_note_form.JPG)
