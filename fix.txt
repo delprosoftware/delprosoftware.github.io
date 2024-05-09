@@ -1,0 +1,2 @@
+Job details summary image contains "call number", this should be "job number"
+Job list image contains 'additional notes', this is no longer there
