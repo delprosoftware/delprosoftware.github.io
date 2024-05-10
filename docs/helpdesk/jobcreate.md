@@ -4,15 +4,23 @@ To initiate the job creation process, navigate to the Helpdesk button located in
 
 ![Create Job button](img/create_job_button.JPG)
 
+<br>
+<hr>
+
 ## Client and Client Contract
 
-Upon accessing the form, you'll need to specify the **Client** and their corresponding contract for whom the job is being created. If the desired **Client** is not visible in the dropdown menu, please refer to the administration for assistance as it may need to be added.
+Upon accessing the form, you'll need to specify the **Client** and their corresponding **Client Contract** name for whom the job is being created for. If the desired **Client** is not visible in the dropdown menu, please refer to the administration for assistance as it may need to be added.
 
 ![Client Entry](img/client_entry.JPG)
+
+<br>
 
 Additionally, one extra fields will appear prompting you to input the **Client's Call Number**. If the client lacks this detail, kindly consult the administration for further guidance.
 
 ![Client Call Number Name](img/client_call_number.JPG)
+
+<br>
+<hr>
 
 ## Site Details
 
@@ -20,19 +28,27 @@ For each **Client** and **Client Contact**, specific **Site Details** are linked
 
 ![Site Details Drop Down](img/site_details_dropdown.JPG)
 
-In the event that **Site Details** are not displayed in the list, there's an option to create a new entry. To do this, simply select *If a site does not exist, click here*. This will open a new window, facilitating the addition of new **Site Details**.
+<br>
+
+In the event that **Site Details** are not displayed in the list, there's an option to create a new entry. To do this, simply select *'If a site does not exist, click here'*. This will open a new window, facilitating the addition of new **Site Details**.
 
 ![Create Site Details](img/create_site_details.JPG)
 
-Kindly complete the new **Site Details** form with special attention to accurately entering essential information in the following fields:
+<br>
+
+Complete the new **Site Details** form with special attention to accurately entering essential information in the following fields:
+
+![Site Details Form](img/site_details_form.JPG)
 
  - **Site Name:** Specify the site's name, which identifies the location.
  - **Address:** Enter the complete physical address of the site.
  - **Zone:** Choose the zone from the list established by the administration that corresponds to the site's location. If the appropriate zone is not listed, please alert the administration. Note that zones determine job visibility for users, allowing them to see jobs within their specific zone.
 
-**Important:** Should any required fields be left incomplete upon submission, you will receive a notification indicating which fields need to be filled.
+!!! warning 
+    Should any required fields be left incomplete upon submission, you will receive a notification indicating which fields need to be filled.
 
-![Site Details Form](img/site_details_form.JPG)
+<br>
+<hr>
 
 ## Job Allocation List
 
@@ -40,8 +56,12 @@ After selecting a **Site Details**, the list below will populate with company na
 
 ![Allocation List](img/allocation_list.JPG)
 
+<br>
+
 ![Allocation Popup](img/allocation_list_popup.JPG)
 
+<br>
+<hr>
 
 ## Job Allocation
 
@@ -82,14 +102,14 @@ Please see exmaple fields below
 <div class="admonition note">
     <p class="admonition-title">Automation Emails</p>
     <p>
-        Job Creation: Notification Emails
+        <b>Job Creation: Notification Emails</b>
         <ul>
-            <li>Employees: After a job is created, an email will be sent to all users within the zones specified in the Site Details.</li>
-            <li>Contractors: An email will be sent to the Contractor's Job Request Email as specified.</li>
+            <li><b>Employees:</b> After a job is created, an email will be sent to all users within the zones specified in the Site Details.</li>
+            <li><b>Contractors:</b> An email will be sent to the Contractor's Job Request Email as specified.</li>
         </ul>
     </p>
     <p>
-        Job Allocation: Notification Email
+        <b>Job Allocation: Notification Email</b>
         <ul>
             <li>An email will be sent to all users specified in the Allocation and/or Additional Resource sections. This email will notify the users that a job has been assigned to them.</li>
         </ul>

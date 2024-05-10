@@ -10,7 +10,7 @@
 
 This list displays all current jobs assigned to you, showcasing all relevant details for each entry.
 
-![Job List](img/job_list.png)
+![Job List](img/job_list.png){: .img}
 
 - **Call Status:** This shows the current status of the job.
 - **Job Number:** A unique number used to identify jobs within the system.
@@ -47,9 +47,13 @@ Once you have selected your filter, click the *'Filter Jobs'* button.
 
 ## Maps
 
-Once you select a search filter, you can click on "view map" to display a map showing all job locations associated with your name, based on the selected filter.
+Once you select a search filter, you can click on the *'View Map'* button to display a map showing all job locations associated with your name, based on the selected filter.
 
 ![Job Map Button](img/job_map_button.JPG)
+
+<br>
+
+The **Job Map** will show the filtered current jobs in your area and associated with your name.
 
 ![Job Map](img/job_map.JPG)
 
@@ -58,7 +62,7 @@ Once you select a search filter, you can click on "view map" to display a map sh
 
 ## View Job Information
 
-If you want to view the detailed breakdown of a specific job, you can click on the job row, and you will be redirected to the **Job Details** page.
+If you want to view the detailed breakdown of a specific job, you can click the **Job Row**, and you will be redirected to the **Job Details** page.
 
 ![Job Redirect](img/job_redirect.png)
 

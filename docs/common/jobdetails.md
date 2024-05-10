@@ -47,7 +47,7 @@ To send an update regarding the current job, simply type your message in the inp
     <p>
         Action Status Update
         <ul>
-            <li>Please note that you can send updates regardless of the **Action Status** selected; it is not necessary for it to be set to 'update' for this action to occur.</li>
+            <li>Please note that you can send updates regardless of the <b>Action Status</b> selected; it is not necessary for it to be set to <b>'Update'</b> for this action to occur.</li>
         </ul>
     </p>
 </div>
@@ -116,7 +116,12 @@ If the job call is currently onsite, you will find an *'Onsite Actions'* button 
 
 When you arrive onsite, you will see the *'Create Closure Note'* option. Use this to document each visit, recording all relevant onsite and offsite details along with the outcomes of your attendance.
 
-After clicking this button, you will be directed to another page where you can enter all the necessary details. Please be aware that the fields in the note are adjustable, as administrators have the capability to modify closure notes for each client and contract.
+!!! warning
+    Closure notes are important for keeping track of job status/outcomes and in most cases should be completed by technicians before closing a job.
+
+<br>
+
+After clicking the *'Create Closure Note button, you will be directed to another page where you can enter all the necessary details. Please be aware that the fields in the note are adjustable, as administrators have the capability to modify closure notes for each client and contract.
 
 ![Uploads](img/closure_note_form.JPG)
 

@@ -1,0 +1,5 @@
+/* Image border styling */
+
+img {
+  border: 10px solid #ddd;
+}

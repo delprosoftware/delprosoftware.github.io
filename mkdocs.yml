@@ -61,3 +61,6 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: "&copy; 2024 Delpro IT"
+
+extra_css:
+  - styles.css
