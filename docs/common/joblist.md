@@ -1,9 +1,3 @@
-<style>
-  hr {
-    border: 1px solid #666; /* Change the border style and color */
-  }
-</style>
-
 # Technican Job List
 
 ## Job List
@@ -13,11 +7,17 @@ This list displays all current jobs assigned to you, showcasing all relevant det
 ![Job List](img/job_list.png){: .img}
 
 - **Call Status:** This shows the current status of the job.
+
 - **Job Number:** A unique number used to identify jobs within the system.
+
 - **Job Type:** The nature of the job or type of work to be carried out.
+
 - **Client Call Number:** A unique external job number used by the clients system.
+
 - **Allocation:** This displays the primary technician and secondary technician if allocated
+
 - **Attend By SLA:** This indicates the time remaining to attend to the site.
+
 - **Close By SLA:** This timer displays the time available before the call must be resolved.
 
 <br>
@@ -30,10 +30,15 @@ We are able to change what we can see in our job list by adjusting our job filte
 ![Filter Dropdown](img/filter_dropdown.JPG)
 
 - **Jobs Due Today**
+
 - **Jobs Due Tomorrow**
+
 - **All Jobs**
+
 - **Closure Notes (Last 30 Days)**
+
 - **My Project Jobs**
+
 - **My Ad-Hoc Jobs**
 
 <br>

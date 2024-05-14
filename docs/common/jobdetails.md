@@ -11,15 +11,25 @@
 ![Job Details Summary](img/job_details_summary.JPG)
 
 - **Job Number:** A unique number used to identify jobs within the system.
+
 - **Site Name:** The name of the site/business name given by the merchant.
+
 - **Client Call Number:** A unique external job number used by the clients system.
+
 - **Client Details:** The name of the client and nature of the job.
+
 - **Job Type:** The nature of the job or type of work to be carried out.
+
 - **Primary Technician:** The primary technician that has been allocated to the job.
+
 - **Second Technician:** If needed, a secondary technician that has been allocated to the job will appear here.
+
 - **Call Status:** This shows the current status of the job.
+
 - **Client Job URL:** This link will take you to the corresponding job within the clients system.
+
     +   This will require secure login details from the clients system.
+
 - **Address:** The job site address given by the merchant. Click this field for directions with Google Maps.
 
 <br>
@@ -93,6 +103,7 @@ If the job call is presently not onsite, you will notice a *'Technician Actions'
 ![Technician Action Button](img/technician_action_button.JPG)
 
 - **Escalate To Helpdesk:** This option permits the user to escalate the call to the Helpdesk if there is an issue that requires further attention.
+
 - **Close Call:** This option enables the user to close the call once it has been completed.
 
 <br>
@@ -105,8 +116,11 @@ If the job call is currently onsite, you will find an *'Onsite Actions'* button 
 ![Onsite Action Button](img/onsite_action_button.JPG)
 
 - **Create Closure Note:** This allows you to submit closure notes for your current attendance. This must be used at all times when you have been onsite.
+
 - **Escalate To Helpdesk:** This choice allows the user to escalate the call to the Helpdesk if there is an issue that requires further attention.
+
 - **Leaving Site:** After completing all other actions and if the call needs to remain open but nothing needs to be escalated, you can leave the site.
+
 - **Close Call:** This enables the user to close the call once it has been completed.
 
 <br>
@@ -206,6 +220,7 @@ You can view the **SLA Details** to see the remaining duration for each job.
 ![SLA Details](img/sla_details.JPG)
 
 - **Attend By SLA:** This indicates the time remaining to attend to the site.
+
 - **Close By SLA:** This timer displays the time available before the call must be resolved.
 
 <br>

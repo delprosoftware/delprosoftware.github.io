@@ -71,9 +71,14 @@ There are two sections where you can assign a job to a user, **Allocation** and 
 
 ![Allocation Dropdown](img/allocation_dropdown.JPG)
 
+<br>
+<hr>
+
 ## Job Status
 
 The default **Job Status** is set as *New Job*. If a different status is needed, please select the desired option from the drop-down menu. Below are examples of statuses you can choose:
+
+![Status Dropdown](img/status_dropdown.JPG)
 
 - Standby
 - Awaiting Customer Reply
@@ -81,7 +86,8 @@ The default **Job Status** is set as *New Job*. If a different status is needed,
 - On Hold
 - Parts Pending
 
-![Status Dropdown](img/status_dropdown.JPG)
+<br>
+<hr>
 
 ## Job Type
 
@@ -89,6 +95,8 @@ The **Job Type** is a flexible field configured by administrators. It serves to 
 
 ![Job Type Dropdown](img/job_type_dropdown.JPG)
 
+<br>
+<hr>
 
 ## Additional Fields
 
@@ -98,14 +106,13 @@ Please see exmaple fields below
 
 ![Additional Fields](img/additional_fields.JPG)
 
-
 <div class="admonition note">
     <p class="admonition-title">Automation Emails</p>
     <p>
         <b>Job Creation: Notification Emails</b>
         <ul>
             <li><b>Employees:</b> After a job is created, an email will be sent to all users within the zones specified in the Site Details.</li>
-            <li><b>Contractors:</b> An email will be sent to the Contractor's Job Request Email as specified.</li>
+            <li><b>Contractors:</b> An email will be sent to the contractor's Job Request Email as specified.</li>
         </ul>
     </p>
     <p>
@@ -115,4 +122,7 @@ Please see exmaple fields below
         </ul>
     </p>
 </div>
+
+<br>
+<hr>
 

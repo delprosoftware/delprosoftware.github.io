@@ -4,7 +4,7 @@ nav:
   - Welcome: index.md
   - Helpdesk:
       - 'Creating Jobs': helpdesk/jobcreate.md
-      - 'Job Search': ''
+      - 'Job Search': helpdesk/jobsearch.md
   - Technician: 
         - 'Job List': common/joblist.md
         - 'Job Details': common/jobdetails.md
