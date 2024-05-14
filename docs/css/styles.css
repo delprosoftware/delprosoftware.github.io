@@ -1,5 +1,4 @@
-/* Image border styling */
-
-img {
-  border: 10px solid #ddd;
+.image-border {
+  border: 2px solid #adadad; /* Border colour
+  border-radius: 5px; /* Border rounding
 }

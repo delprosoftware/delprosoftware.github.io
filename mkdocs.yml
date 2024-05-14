@@ -4,21 +4,35 @@ nav:
   - Welcome: index.md
   - Helpdesk:
       - 'Creating Jobs': helpdesk/jobcreate.md
-      - 'Job Search': helpdesk/jobsearch.md
+      - 'Editing Jobs': helpdesk/jobedit.md
+      - 'Searching Jobs': helpdesk/jobsearch.md
+      - 'Clock In/Out': clockinout.md
+      override: 'Helpdesk'
   - Technician: 
-        - 'Job List': common/joblist.md
-        - 'Job Details': common/jobdetails.md
-  - Contractor: 
-        - 'Job List': common/joblist.md
-        - 'Job Details': common/jobdetails.md
-  - Client: client.md
+      - 'Job List': technician/joblist.md
+      - 'Job Details': technician/jobdetails.md
+      - 'Clock In/Out': clockinout.md
+      override: 'Technician'
+  - Contractor: contractor.md
+  - Accounts: accounts.md
   - Administration: administration.md
+
+{% if nav.tabs == "Helpdesk" %}
+## Helpdesk Clock In/Out
+{% elif nav.tabs == "Technician" %}
+## Technician Clock In/Out
+{% endif %}
 
 theme:
   name: material
   logo: img/delpro_it_logo.PNG
-  collapse_navigation: true
+  collapse_navigation: false
   features:
+    - navigation.instant #Faster navigation
+    - navigation.instant.prefetch #Preloads page on hover
+    - navigation.instant.progress #Shows loading bar for slowing connections
+    - navigation.expand #Shows all navigation options for page
+    - navigation.path #Shows relevant site pathing at the top of the page
     - navigation.tabs
     - navigation.sections
     - toc.integrate
@@ -63,4 +77,5 @@ markdown_extensions:
 copyright: "&copy; 2024 Delpro IT"
 
 extra_css:
-  - styles.css
+  - css/styles.css
+

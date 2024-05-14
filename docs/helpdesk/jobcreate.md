@@ -41,7 +41,9 @@ Complete the new **Site Details** form with special attention to accurately ente
 ![Site Details Form](img/site_details_form.JPG)
 
  - **Site Name:** Specify the site's name, which identifies the location.
+
  - **Address:** Enter the complete physical address of the site.
+
  - **Zone:** Choose the zone from the list established by the administration that corresponds to the site's location. If the appropriate zone is not listed, please alert the administration. Note that zones determine job visibility for users, allowing them to see jobs within their specific zone.
 
 !!! warning 

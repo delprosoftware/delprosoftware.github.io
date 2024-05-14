@@ -1,14 +1,8 @@
-<style>
-  hr {
-    border: 1px solid #666; /* Change the border style and color */
-  }
-</style>
-
 # Job Details
 
-## Job Details Summary
+## Summary Table
 
-![Job Details Summary](img/job_details_summary.JPG)
+![Job Details Summary](img/job_details_summary.JPG){: class="image-border"}
 
 - **Job Number:** A unique number used to identify jobs within the system.
 
@@ -28,7 +22,7 @@
 
 - **Client Job URL:** This link will take you to the corresponding job within the clients system.
 
-    +   This will require secure login details from the clients system.
+    +   :lock: This will require secure login details from the clients system.
 
 - **Address:** The job site address given by the merchant. Click this field for directions with Google Maps.
 
