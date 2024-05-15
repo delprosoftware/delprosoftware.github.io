@@ -1,0 +1,1355 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://delprosoftware.github.io/documentation/technician/jobdetails/">
+      
+      
+        <link rel="prev" href="../joblist/">
+      
+      
+        <link rel="next" href="../../clockinout/clockinout/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.22">
+    
+    
+      
+        <title>Job Details - Delpro IT - Field Service Application Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.732c4fb1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/styles.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#job-details" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Delpro IT - Field Service Application Documentation" class="md-header__button md-logo" aria-label="Delpro IT - Field Service Application Documentation" data-md-component="logo">
+      
+  <img src="../../img/delpro_it_logo.PNG" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Delpro IT - Field Service Application Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Job Details
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Welcome
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../helpdesk/jobsearch/" class="md-tabs__link">
+          
+  
+  Helpdesk
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../joblist/" class="md-tabs__link">
+          
+  
+  Technician
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../contractor/joblist/" class="md-tabs__link">
+          
+  
+  Contractor
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../accounts/accounts/" class="md-tabs__link">
+          
+  
+  Accounts
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Delpro IT - Field Service Application Documentation" class="md-nav__button md-logo" aria-label="Delpro IT - Field Service Application Documentation" data-md-component="logo">
+      
+  <img src="../../img/delpro_it_logo.PNG" alt="logo">
+
+    </a>
+    Delpro IT - Field Service Application Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Helpdesk
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Helpdesk
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../helpdesk/jobsearch/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Searching Jobs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../helpdesk/jobcreate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating Jobs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../helpdesk/jobedit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Editing Jobs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../clockinout/clockinout/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clock In/Out
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Technician
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Technician
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../joblist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Job List
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Job Details
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Job Details
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Summary Table">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#button-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Button Actions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Button Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#technician-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technician Actions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#onsite-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Onsite Actions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Onsite Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#create-closure-note" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create Closure Note
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escalate-to-helpdesk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Escalate to Helpdesk
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#job-actions-tab" class="md-nav__link">
+    <span class="md-ellipsis">
+      Job Actions - Tab
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Job Actions - Tab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#update" class="md-nav__link">
+    <span class="md-ellipsis">
+      Update
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#on-the-way" class="md-nav__link">
+    <span class="md-ellipsis">
+      On The Way
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#on-site" class="md-nav__link">
+    <span class="md-ellipsis">
+      On Site
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#job-details-tab" class="md-nav__link">
+    <span class="md-ellipsis">
+      Job Details - Tab
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Job Details - Tab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Details
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notes-sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes Sections
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sla-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      SLA Details
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#site-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Site Details
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-uploads-image-uploads" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Uploads &amp; Image Uploads
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#closure-notes-tab" class="md-nav__link">
+    <span class="md-ellipsis">
+      Closure Notes - Tab
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../clockinout/clockinout/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clock In/Out
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Contractor
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Contractor
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contractor/joblist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Job List
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contractor/jobdetails/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Job Details
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contractor/contractor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contractor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../clockinout/clockinout/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clock In/Out
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Accounts
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Accounts
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../accounts/accounts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Accounts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../clockinout/clockinout/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clock In/Out
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="job-details">Job Details</h1>
+<h2 id="summary-table">Summary Table</h2>
+<p><img alt="Job Details Summary" class="image-border" src="../img/job_details_summary.JPG" /></p>
+<ul>
+<li>
+<p><strong>Job Number:</strong> A unique number used to identify jobs within the system.</p>
+</li>
+<li>
+<p><strong>Site Name:</strong> The name of the site/business name given by the merchant.</p>
+</li>
+<li>
+<p><strong>Client Call Number:</strong> A unique external job number used by the clients system.</p>
+</li>
+<li>
+<p><strong>Client Details:</strong> The name of the client and nature of the job.</p>
+</li>
+<li>
+<p><strong>Job Type:</strong> The nature of the job or type of work to be carried out.</p>
+</li>
+<li>
+<p><strong>Primary Technician:</strong> The primary technician that has been allocated to the job.</p>
+</li>
+<li>
+<p><strong>Second Technician:</strong> If needed, a secondary technician that has been allocated to the job will appear here.</p>
+</li>
+<li>
+<p><strong>Call Status:</strong> This shows the current status of the job.</p>
+</li>
+<li>
+<p><strong>Client Job URL:</strong> This link will take you to the corresponding job within the clients system.</p>
+<ul>
+<li><img alt="🔒" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f512.svg" title=":lock:" /> This will require secure login details from the clients system.</li>
+</ul>
+</li>
+<li>
+<p><strong>Address:</strong> The job site address given by the merchant. Select this field for directions with Google Maps.</p>
+</li>
+</ul>
+<p><br></p>
+<hr>
+
+<h3 id="button-actions">Button Actions</h3>
+<h4 id="technician-actions">Technician Actions</h4>
+<p>If the job call is presently not onsite, you will notice a <em>'Technician Actions'</em> button below the <strong>Action Update</strong>. This button provides various options for the user.</p>
+<p><img alt="Technician Action Button" src="../img/technician_action_button.JPG" /></p>
+<ul>
+<li>
+<p><strong>Escalate To Helpdesk:</strong> This option permits the user to escalate the call to the Helpdesk if there is an issue that requires further attention.</p>
+</li>
+<li>
+<p><strong>Close Call:</strong> This option enables the user to close the call once it has been completed.</p>
+</li>
+</ul>
+<p><br></p>
+<hr>
+
+<h4 id="onsite-actions">Onsite Actions</h4>
+<p>If the job call is currently onsite, you will find an <em>'Onsite Actions'</em> button below the <strong>Action Update</strong>. This button offers various options for the user.</p>
+<p><img alt="Onsite Action Button" src="../img/onsite_action_button.JPG" /></p>
+<ul>
+<li>
+<p><strong>Create Closure Note:</strong> This allows you to submit closure notes for your current attendance. This must be used at all times when you have been onsite.</p>
+</li>
+<li>
+<p><strong>Escalate To Helpdesk:</strong> This choice allows the user to escalate the call to the Helpdesk if there is an issue that requires further attention.</p>
+</li>
+<li>
+<p><strong>Leaving Site:</strong> After completing all other actions and if the call needs to remain open but nothing needs to be escalated, you can leave the site.</p>
+</li>
+<li>
+<p><strong>Close Call:</strong> This enables the user to close the call once it has been completed.</p>
+</li>
+</ul>
+<p><br></p>
+<hr>
+
+<h5 id="create-closure-note">Create Closure Note</h5>
+<p>When you arrive onsite, you will see the <em>'Create Closure Note'</em> option. Use this to document each visit, recording all relevant onsite and offsite details along with the outcomes of your attendance.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Closure notes are important for keeping track of job status/outcomes and in most cases should be completed by technicians before closing a job.</p>
+</div>
+<p><br></p>
+<p>After selecting the <em>'Create Closure Note'</em> button, you will be directed to another page where you can enter all the necessary details. Please be aware that the fields in the note are adjustable, as administrators have the capability to modify closure notes for each client and contract.</p>
+<p><img alt="Uploads" src="../img/closure_note_form.JPG" /></p>
+<p><br></p>
+<p>Once the closure note has been submitted it will post an update on the <strong>Job Actions</strong> tab.</p>
+<p><img alt="Uploads" src="../img/closure_note_update.JPG" /></p>
+<p><br></p>
+<p>All closure notes that have been submitted for a job can be found under the <strong>Closure Notes</strong> tab.</p>
+<p><img alt="Uploads" src="../img/closure_note_button.JPG" /></p>
+<p><br></p>
+<hr>
+
+<h5 id="escalate-to-helpdesk">Escalate to Helpdesk</h5>
+<p>If the call requires to be escalated to the help desk, you are able to select the <em>'Escalate to Helpdesk'</em> button. A pop-up window will show to advise if you would like to escalate to helpdesk.</p>
+<p><img alt="Uploads" src="../img/escalate_helpdesk_popup_sure.JPG" /></p>
+<p><br></p>
+<p>A second pop-up will prompt you to enter a message in the <strong>Action Update Field</strong>.</p>
+<p><img alt="Uploads" src="../img/escalate_helpdesk_popup_prompt.JPG" /></p>
+<p><br></p>
+<p>Enter required message to helpdesk.</p>
+<p><img alt="Uploads" src="../img/escalate_helpdesk_action_field.JPG" /></p>
+<div class="admonition note">
+    <p class="admonition-title">Escalation Email</p>
+    <p>
+        Automatic Email
+        <ul>
+            <li>Please note when a call has been escalated, an automatic escalation email has been sent to the helpdesk.</li>
+        </ul>
+    </p>
+</div>
+
+<p><br></p>
+<hr>
+
+<h2 id="job-actions-tab">Job Actions - Tab</h2>
+<p>The <strong>Job Actions</strong> tab shows all the latest updates for the current job. You can use this tab to add important notes that all staff need to see.
+<br></p>
+<p><img alt="Job Action Button" src="../img/job_action_button.JPG" /></p>
+<p><br></p>
+<hr>
+
+<h3 id="actions">Actions</h3>
+<h4 id="update">Update</h4>
+<p>To send an update regarding the current job, simply type your message in the input field and select <em>'Send'</em>. This will update the live message feed displayed below.</p>
+<p><img alt="Job Update Field" src="../img/job_update_field.JPG" /></p>
+<div class="admonition note">
+    <p class="admonition-title">Action Status</p>
+    <p>
+        Action Status Update
+        <ul>
+            <li>Please note that you can send updates regardless of the <b>Action Status</b> selected; it is not necessary for it to be set to <b>'Update'</b> for this action to occur.</li>
+        </ul>
+    </p>
+</div>
+
+<p><br></p>
+<hr>
+
+<h4 id="on-the-way">On The Way</h4>
+<p>You can use the dropdown menu to set your current status to <em>'On The Way'</em> This notifies the Helpdesk and other relevant parties that you are en route to the job.</p>
+<p><img alt="On The Way" src="../img/on_the_way.JPG" /></p>
+<p><br></p>
+<p>If you accidentally set your status to <em>'On The Way'</em> you can select the <em>'Incorrect On The Way'</em> status to remove yourself from this status. You will also need to enter a message explaining the situation.</p>
+<p><img alt="Incorrect On The Way" src="../img/incorrect_on_the_way.JPG" /></p>
+<p><br></p>
+<hr>
+
+<h4 id="on-site">On Site</h4>
+<p>You can use the dropdown menu to set your current status to <em>'On Site'</em> This notifies the Helpdesk and other relevant parties that you are at site.</p>
+<p><img alt="Onsite" src="../img/onsite.JPG" /></p>
+<p><br></p>
+<p>If you accidentally set your status to <em>'Onsite'</em> you can select the <em>'Incorrect Onsite'</em> status to remove yourself from this status. You will also need to enter a message explaining the situation.</p>
+<p><img alt="Incorrect Onsite" src="../img/incorrect_onsite.JPG" /></p>
+<p><br></p>
+<hr>
+
+<h2 id="job-details-tab">Job Details - Tab</h2>
+<p>The <strong>Job Details</strong> tab will present all information regarding the current job.</p>
+<p><img alt="Job Details Button" src="../img/job_details_button.JPG" /></p>
+<p><br></p>
+<hr>
+
+<h3 id="details">Details</h3>
+<p>The job details will always align with the current <strong>Client</strong> and <strong>Client Contract</strong>. The displayed information will vary depending on the selections made by the administration team.</p>
+<p><img alt="Details" src="../img/details.JPG" /></p>
+<p><br></p>
+<hr>
+
+<h3 id="notes-sections">Notes Sections</h3>
+<p>This will show the job notes, which include the site issue as well as any additional notes that may be important.</p>
+<p><img alt="Notes Section" src="../img/notes_section.JPG" /></p>
+<p><br></p>
+<hr>
+
+<h3 id="sla-details">SLA Details</h3>
+<p>You can view the <strong>SLA Details</strong> to see the remaining duration for each job.</p>
+<p><img alt="SLA Details" src="../img/sla_details.JPG" /></p>
+<ul>
+<li>
+<p><strong>Attend By SLA:</strong> This indicates the date and time remaining to attend to the site.</p>
+</li>
+<li>
+<p><strong>Close By SLA:</strong> This timer displays the date and time available before the call must be closed.</p>
+</li>
+</ul>
+<p><br></p>
+<hr>
+
+<h3 id="site-details">Site Details</h3>
+<p>All location and contact information can be found under the <strong>Site Details</strong> section.</p>
+<p><img alt="Site Details" src="../img/site_details.JPG" /></p>
+<p><br></p>
+<hr>
+
+<h3 id="file-uploads-image-uploads">File Uploads &amp; Image Uploads</h3>
+<p>You have the capability to upload <strong>Files</strong> and <strong>Images</strong>. Simply select the <em>'Choose Files'</em> button to select the desired files or images, then proceed to hit the upload button.</p>
+<p><img alt="Uploads" src="../img/uploads.JPG" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Please note that you can only upload either <b>Files</b> or <b>Images</b> at a time. Once you have selected what you need, select the <i>'Upload'</i> button. Wait for the progress bar to complete and the page to refresh.</p>
+</div>
+<p><br></p>
+<hr>
+
+<h2 id="closure-notes-tab">Closure Notes - Tab</h2>
+<p>The <strong>Closure Notes</strong> tab will show all closure notes created for a job.</p>
+<p><img alt="Closure Note Button" src="../img/closure_note_button.JPG" /></p>
+<p><br></p>
+<p>Select the closure note to reveal a dropdown section with more information.</p>
+<p><img alt="Closure Note Tab" src="../img/closure_note_tab.JPG" /></p>
+<p><br></p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2024 Delpro IT
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.expand", "navigation.path", "navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5cfa9459.min.js"></script>
+      
+    
+  </body>
+</html>

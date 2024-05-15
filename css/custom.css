@@ -1,0 +1,16 @@
+/* Custom background color for the Job Details section */
+.job-details {
+    background-color: #f0f0f0;
+}
+
+/* Custom background color for the Job Actions tab */
+.job-actions {
+    background-color: #e0e0ff;
+}
+
+/* Custom background color for the Closure Notes tab */
+.closure-notes {
+    background-color: #e0ffe0;
+}
+
+/* You can continue for other sections as needed */
