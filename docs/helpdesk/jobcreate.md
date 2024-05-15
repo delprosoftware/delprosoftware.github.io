@@ -1,6 +1,6 @@
 # Creating Jobs
 
-To initiate the job creation process, navigate to the Helpdesk button located in the navigation bar. Subsequently, click on the Create Job button which will direct you to the job creation form.
+To initiate the job creation process, navigate to the *'Helpdesk'* button located in the navigation bar. Subsequently, select the *'Create Job'* button which will direct you to the **Job Creation Form**.
 
 ![Create Job button](img/create_job_button.JPG)
 
@@ -26,7 +26,7 @@ Additionally, one extra fields will appear prompting you to input the **Client's
 
 For each **Client** and **Client Contact**, specific **Site Details** are linked, acting as the exact location for the site. These details are only visible once the respective **Client** and **Client Contact** have been chosen.
 
-![Site Details Drop Down](img/site_details_dropdown.JPG)
+![Site Details Dropdown](img/site_details_dropdown.JPG)
 
 <br>
 
@@ -54,7 +54,7 @@ Complete the new **Site Details** form with special attention to accurately ente
 
 ## Job Allocation List
 
-After selecting a **Site Details**, the list below will populate with company names. Clicking on any company name will display all users associated with that company who are operating within the zone specified by the **Site Details**. Among these users, one will be labeled *"Main Account"* and highlighted in yellow. Please assign the job to this user, as recommended by the contracting company. If the main user is not visible, please notify administration.
+After selecting a **Site Details**, the list below will populate with company names. Selecting any company name will display all users associated with that company who are operating within the zone specified by the **Site Details**. Among these users, one will be labeled *"Main Account"* and highlighted in yellow. Please assign the job to this user, as recommended by the contracting company. If the main user is not visible, please notify administration.
 
 ![Allocation List](img/allocation_list.JPG)
 
@@ -78,7 +78,7 @@ There are two sections where you can assign a job to a user, **Allocation** and 
 
 ## Job Status
 
-The default **Job Status** is set as *New Job*. If a different status is needed, please select the desired option from the drop-down menu. Below are examples of statuses you can choose:
+The default **Job Status** is set as *New Job*. If a different status is needed, please select the desired option from the dropdown menu. Below are examples of statuses you can choose:
 
 ![Status Dropdown](img/status_dropdown.JPG)
 

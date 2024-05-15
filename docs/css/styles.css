@@ -1,4 +1,12 @@
 .image-border {
-  border: 2px solid #adadad; /* Border colour
-  border-radius: 5px; /* Border rounding
+  border: 2px solid #adadad; /* Border colour */
+  border-radius: 5px; /* Border rounding */
+}
+
+
+
+.admonition {
+  width: 50%; /* admonition width */
+  margin-left: auto;
+  margin-right: auto;
 }

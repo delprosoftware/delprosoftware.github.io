@@ -1,10 +1,5 @@
 ## Filters
 
-Search filters are criteria or parameters used to narrow down search results to show only the most relevant and desired information. They help refine searches by excluding or including specific data, making it easier to find what you're looking for.
-
-<br>
-<hr>
-
 ### Search Fields
 
 These search fields allow you to type user specified information.
@@ -38,15 +33,13 @@ The SLA fields allow you to filter jobs by a date and time specified for the **A
 
 ![Job Search Fields SLA](img/job_search_fields_sla.JPG)
 
-- :calendar: **Close by SLA Start:** Search ==from== a close by SLA date/time.
+- :calendar: **Close by SLA Start:** Search ^^from^^ a close by SLA date/time.
 
-    - :calendar: **Close by SLA End:** Search ==until== a close by SLA date/time.
+- :calendar: **Close by SLA End:** Search ^^until^^ a close by SLA date/time.
 
-<br>
+- :calendar: **Attend by SLA Start:** Search ^^from^^ an attend by SLA date/time.
 
-- :calendar: **Attend by SLA Start:** Search ==from== an attend by SLA date/time.
-
-    - :calendar: **Attend by SLA End:** Search ==until== an attend by SLA date/time.
+- :calendar: **Attend by SLA End:** Search ^^until^^ an attend by SLA date/time.
 
 <br>
 <hr>
@@ -59,7 +52,7 @@ These fields allow you to filter by specific conditions or parameters.
 
 - **Closed Jobs:** Search for any jobs that have been closed.
 
-    +   Select ✅ True or ❌ False
+    +   Select :white_check_mark: True or :x: False
 
 - **Cancelled Jobs:** Search for any jobs that have been cancelled.
 
@@ -67,17 +60,15 @@ These fields allow you to filter by specific conditions or parameters.
 
 - **Invoice Sent:** Search any jobs that have been closed.
 
-    +   Select ✅ True or ❌ False
+    +   Select :white_check_mark: True or :x: False
 
 - **Contractor Invoice Required:**
 
-    +   Select ✅ True or ❌ False
+    +   Select :white_check_mark: True or :x: False
 
-<br>
+- :calendar: **Closed At Start:** Search ^^from^^ a job closed date/time.
 
-- :calendar: **Closed At Start:** Search ==from== a job closed date/time.
-
-    - :calendar: **Closed At End:** Search ==until== a job closed date/time.
+- :calendar: **Closed At End:** Search ^^until^^ a job closed date/time.
 
 <br>
 <hr>
@@ -119,36 +110,10 @@ The first column is used to select one or more jobs by selecting checkboxes or s
 
 - **Job Type:** The nature of the job or type of work to be carried out.
 
-- **Attend By SLA:** This indicates the time remaining to attend to the site.
+- **Attend By SLA:** This indicates the date and time remaining to attend to the site.
 
 <br>
 <hr>
 
-### Bulk Update
 
-Perform a bulk update by selecting jobs from the job list using the selection column. Bulk updates can be used to update the primary and/or secondary technician for multiple jobs in one action.
-
-![Bulk Update](img/job_search_bulk_update.JPG)
-
-- **Update Primary Technician:** Change the primary technician in the drop down menu.
-
-- **Update Additional Resource:** Change the secondary technician.
-
-<br>
-
-After selecting *'Update Primary Technician'* or *'Update Additional Resource'* a **Select Technician** window will prompt you to allocate a technician.
-
-![Job Search Bulk Update Allocate](img/job_search_bulk_update_allocate.JPG){: width="400" }
-
-!!! note "Removing An Allocation"
-    By default, *'Remove Allocation'* is selected to remove any technician allocations made for the selected jobs in the bulk update.
-
-<br>
-
-Click the dropdown menu to select and update the technician for the selected jobs.
-
-![Job Search Bulk Update Allocate Dropdown](img/job_search_bulk_update_allocate_dropdown.JPG){: width="400" }
-
-<br>
-<hr>
 

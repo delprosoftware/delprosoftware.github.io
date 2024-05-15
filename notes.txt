@@ -5,3 +5,16 @@ Change themes and edit styles
 Helpdesk cant edit times (only sees own times)
 Admin can edit times
 Accounts sees all times
+
+Start date and finish date filter for everyone
+Employee search for admin and accounts
+
+
+:necktie: Admin
+:memo: Accounts
+:wrench: Technician
+:phone: Helpdesk
+
+Create clock in/out for each nav
+
+Technician job list for contractor nav (they see the same)

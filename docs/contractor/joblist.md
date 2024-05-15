@@ -1,4 +1,4 @@
-## Job List
+# Job List
 
 This list displays all current jobs assigned to you, showcasing all relevant details for each entry.
 
